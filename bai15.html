@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact us</h1>
+    <form action="">
+        <fieldset>
+            <legend>Your message</legend>
+            <div>
+                <label for="To">To </label>
+                <input id="To" type="text"  placeholder="Example Cafe" size="20">
+            </div>
+            <div>
+                <label for="email">Your email: </label>
+                <input id="email" type="text" size="20">
+            </div>
+            <br>
+            <div>
+                <label for="textBody">Message: </label>
+                <textarea id="textBody" cols="100" rows="10"></textarea>
+            </div>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>How you found us:</legend>
+            <div>
+                <label for="hearOfUs">How did you hear of us? </label>
+                <select id="hearOfUs">
+                    <option>Google</option>
+                    <option>Google</option>
+                    <option>Google</option>
+                </select>
+            </div>
+            <div class="checkbox-container">
+                <label>Newsletter</label>
+                <input type="checkbox" id="newsletter" value="newsletter">
+                <label for="newsletter">Ensure this box is checked if you want to receive email update</label>
+            </div>
+        </fieldset>
+        <input type="reset" value="Send message">
+    </form>
+</body>
+</html>
